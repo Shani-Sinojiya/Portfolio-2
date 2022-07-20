@@ -47,6 +47,19 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: hsl(43, 100%, 68%);
+  border-radius: 2.5px;
+}
+
 html {
   scroll-behavior: smooth;
 }
