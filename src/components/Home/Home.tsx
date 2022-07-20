@@ -1,7 +1,25 @@
 import "./Home.css";
+import Me from "../../assets/avatar-1.svg";
+import HeaderSocial from "./HeaderSocial";
+import ScrollDown from "./ScrollDown";
+import Shapes from "./Shapes";
 
 const Home = () => {
-  return <div>Enter</div>;
+  return (
+    <section className="home container" id="home">
+      <div className="intro">
+        <img src={Me} alt="Me" className="home_img" />
+        <h1 className="home_name">Shani Sinojiya</h1>
+        <span className="home_education">I'm a Full-Stack developer</span>
+        <HeaderSocial />
+        <a href="#contact" className="btn">
+          Hire Me
+        </a>
+        <ScrollDown />
+      </div>
+      <Shapes />
+    </section>
+  );
 };
 
 export default Home;
