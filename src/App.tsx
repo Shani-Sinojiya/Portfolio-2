@@ -13,7 +13,7 @@ import Testimonials from "./components/Testimonials/Testimonials";
 function App() {
   return (
     <>
-    {/* https://youtu.be/o3IP5HeFRO0?t=2142 */}
+    {/* https://youtu.be/o3IP5HeFRO0?t=3988 */}
       <SideBar />
       <main className="main">
         <Home />
