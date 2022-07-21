@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Pricing from "./components/Pricing/Pricing";
 import Resume from "./components/Resume/Resume";
 import Service from "./components/Service/Service";
-import SideBar from "./components/sidebar/SideBar";
+import SideBar from "./components/Sidebar/SideBar";
 import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
