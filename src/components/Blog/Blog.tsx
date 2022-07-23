@@ -40,7 +40,7 @@ const Blog = () => {
 
       <div className="blog_container grid">
         {BlogData.map((blog) => (
-          <div className="blog_card">
+          <div className="blog_card" key={blog.title}>
             <div className="blog_thumb">
               <a href="/">
                 <span className="blog_category">{blog.category}</span>

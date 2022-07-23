@@ -20,7 +20,7 @@ const SideBar = () => {
       icon: "icon-graduation",
     },
     {
-      title: "portfolio",
+      title: "work",
       icon: "icon-layers",
     },
     {
