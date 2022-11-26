@@ -1,5 +1,4 @@
 import "./Sidebar.css";
-import Logo from "../../assets/logo.svg";
 
 const SideBar = () => {
   const navItems = [
@@ -36,7 +35,7 @@ const SideBar = () => {
   return (
     <aside className="aside">
       <a href="#home" className="nav_logo">
-        <img src={Logo} alt="Logo" />
+        <img src={"/logo.svg"} alt="Logo" />
       </a>
       <nav className="nav">
         <div className="nav_menu">
