@@ -1,14 +1,14 @@
 import "./App.css";
-import About from "./components/About/About";
-import Blog from "./components/Blog/Blog";
-import Contact from "./components/Contect/Contact";
-import Home from "./components/Home/Home";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Pricing from "./components/Pricing/Pricing";
-import Resume from "./components/Resume/Resume";
-import Service from "./components/Service/Service";
-import SideBar from "./components/Sidebar/SideBar";
-import Testimonials from "./components/Testimonials/Testimonials";
+import About from "./components/About";
+import Blog from "./components/Blog";
+import Contact from "./components/Contect";
+import Home from "./components/Home";
+import Portfolio from "./components/Portfolio";
+import Pricing from "./components/Pricing";
+import Resume from "./components/Resume";
+import Service from "./components/Service";
+import SideBar from "./components/Sidebar";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
